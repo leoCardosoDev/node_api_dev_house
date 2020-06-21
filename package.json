@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/leoCardosoDev/node_api_dev_house.git",
   "author": "Leonardo Cardoso <leocardosodev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
