@@ -8,11 +8,8 @@ class SessionController{
     if(!user){
       user = await User.create({ email })
     }
-
-    return res.json(user)
-
+    return res.json({user})
   }
-
 }
 
 export default new SessionController()
